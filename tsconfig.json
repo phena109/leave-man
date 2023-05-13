@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "baseUrl": ".",
+        "paths": {
+            "@/*": ["resources/js/*"]
+        },
+        "types": ["react", "vite/client"],
+        "target": "es5",
+        "module": "es2020",
+        "moduleResolution": "node",
+        "strict": true,         // Enable strict type-checking options
+        "skipLibCheck": true,   // Skip type checking of declaration files
+        "noImplicitAny": false, // Bypass raising errors on `a
+        "jsx": "preserve",
+        "lib": ["es5", "dom"],
+        "allowSyntheticDefaultImports": true,
+        "esModuleInterop": true
+    },
+    "exclude": ["node_modules", "public"]
+}
